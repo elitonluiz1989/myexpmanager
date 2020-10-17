@@ -3,8 +3,8 @@ import 'package:myexpmanager/themes/default/DefaultThemeColors.dart';
 
 ThemeData defaultTheme() {
   return ThemeData(
-    primaryColor: DefaultThemeColors.first,
-    accentColor: DefaultThemeColors.second,
+    primaryColor: DefaultThemeColors.third,
+    accentColor: DefaultThemeColors.fifth,
     textTheme: TextTheme(
       bodyText1: TextStyle(
         color: DefaultThemeColors.fourth
@@ -17,11 +17,11 @@ ThemeData defaultTheme() {
       elevation: 0,
       textTheme: TextTheme(
         headline6: TextStyle(
-          color: DefaultThemeColors.fourth,
+          color: DefaultThemeColors.first,
           fontSize: 18
         )
       )
     ),
-    scaffoldBackgroundColor:  DefaultThemeColors.first,
+    scaffoldBackgroundColor:  DefaultThemeColors.third,
   );
 }
