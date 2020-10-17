@@ -1,0 +1,7 @@
+{
+  "@@locale": "en_US",
+  "appTitle": "My Expenses Manager",
+  "expensesDescription": "Expense",
+  "expensesValue": "Value",
+  "expensesDueDate": "Due Date"
+}
