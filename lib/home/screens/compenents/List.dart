@@ -6,10 +6,10 @@ import 'package:myexpmanager/home/models/components/ListRowSettings.dart';
 
 import 'ListRow.dart';
 
-class HomeScreenBody extends StatelessWidget {
+class HomeScreenList extends StatelessWidget {
   final List<Expense> expenses;
 
-  const HomeScreenBody({Key key, this.expenses}) : super(key: key);
+  const HomeScreenList({Key key, this.expenses}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
